@@ -54,21 +54,24 @@
   .sidebar {
     height: 100%;
     width: 250px;
+    display: flex;
+    flex-direction: column;
     /* background-color: rgb(251, 242, 244); */
   }
   
   .Products {
     background: #f9f9f9;
     overflow: auto;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     border-top: 1px solid #ddd;
   }
   
   .Products-items{
     display: flex;
+   
     /* justify-content: space-around; */
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
     flex-wrap: wrap;
   }
   
@@ -94,10 +97,24 @@
 .top strong {
     display: inline; /* Display inline */
 }
+.main{
+  background-color: red;
+  height: auto;
+  max-width: 1340px;
+  margin: auto;
+}
 
 .main-content{
+
   display: flex;
   gap: 1rem;
+
+}
+
+.sidebar-head{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 
 }
 .sidebar{
@@ -126,9 +143,9 @@
 .Male.sidebar_chield label {
   border: 1px solid #424141; /* Thin border */
   border-radius: 8px; /* Border radius */
-  padding: 5px 8px; /* Padding */
+  padding: 4px 7px; /* Padding */
   display: inline-block; /* Make labels behave like block elements */
-  margin: 5px; /* Add some margin between labels */
+  margin-top: 0.4rem;
 }
 .home {
   border: 1px solid #ccc; /* Border style */
@@ -181,15 +198,17 @@
     padding: 0.5rem 1rem;
     position: relative;
 }
-.Services-card-text>h1{
-    text-align: center;
-    color: black;
+.Services-card-text>h3{
+  text-overflow: ellipsis;
+    /* text-align: center; */
+    white-space: no-wrap;
+    color: #8B8BA3;
 }
 .Services-card{
 
     margin-top: 4px;
     height: 28rem;
-    width: 18rem;
+    width: calc(90%/3 - 10px);
     border-radius: 8px;
     border: 1px solid rgb(218, 214, 214);
     box-shadow: #787976;
@@ -227,12 +246,12 @@
   border-radius: 12px; 
   color: white; 
 }
-@media only screen and (max-width: 1100px) {
+/* @media only screen and (max-width: 1100px) {
   .sidebar {
-      display: none; /* Change display to block for smaller screens */
+      display: none;
   }
   .Services-card {
       width: 90vw;
      
   }
-}
+} */
