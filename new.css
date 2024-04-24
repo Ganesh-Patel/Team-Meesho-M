@@ -10,6 +10,7 @@
     margin: auto;
     display: flex;
     gap: 0.5rem;
+    border: 2px solid gold;
   }
 
   .sidebar{
@@ -157,7 +158,7 @@
 .mrp{
   display: flex;
   gap: 0.4rem;
-  align-items: end;
+  align-items: baseline;
 }
 .rating{
   display: flex;
@@ -178,4 +179,25 @@
   padding: 4px 5px; 
   border-radius: 12px; 
   color: white; 
+}
+.rating img{
+  margin-left: 10px;
+}
+
+.onwards{
+  display: flex;
+  flex-direction: column;
+}
+
+.old-price{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.old-price h3{
+  text-decoration: line-through;
+}
+
+.old-price h4{
+color: green;
 }
