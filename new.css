@@ -196,6 +196,7 @@
 }
 .old-price h3{
   text-decoration: line-through;
+  color: #999;
 }
 
 .old-price h4{
