@@ -20,7 +20,5 @@ Welcome to the Meesho Clone project! This project aims to replicate the function
 
 - **CSS**: The styling and layout of the clone are defined using CSS, including advanced techniques such as flexbox, grid, and animations to achieve a visually appealing and responsive design.
 
-## How to Use:
 
-1. **Clone the Repository**: Start by cloning this repository to your local machine using Git:
 
