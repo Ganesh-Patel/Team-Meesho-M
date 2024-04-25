@@ -1,7 +1,7 @@
 # Meesho Clone
 
 Welcome to the Meesho Clone project! This project aims to replicate the functionality and design of the popular e-commerce platform Meesho using HTML and CSS. With this clone, you can explore the layout, styling, and overall user experience of Meesho right in your browser.
-[Hosted Link](https://ganesh-patel.github.io/Team-Meesho-M/)
+#[Hosted Link](https://ganesh-patel.github.io/Team-Meesho-M/)
 
 ## Features:
 
