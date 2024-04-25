@@ -133,7 +133,7 @@ margin: 5px;
   max-width: calc((100% - 2 * 0.5rem) / 3); 
   border-radius: 8px;
   border: 1px solid rgb(218, 214, 214);
-  box-shadow: #787976;
+  box-shadow: #5f5f5e;
   display: flex;
   flex-direction: column;
 }
@@ -151,7 +151,7 @@ margin: 5px;
 }
 
 .Services-card>img{
-  height: 57%;
+  height: 56%;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
   /* object-fit: cover; */
@@ -164,7 +164,7 @@ align-items: baseline;
 }
 .rating{
 display: flex;
-gap: 0.4rem;
+gap: 0.2rem;
 align-items: end;
 }
 .Services-card-text .Delivery {
